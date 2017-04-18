@@ -1,6 +1,6 @@
 # Thumbnail URL image
 
-Plugin for [YOURLS](http://yourls.org) `1.5+`.
+Plugin for [YOURLS](http://yourls.org) `1.5+`. Tested on YOURLS 1.7.2
 
 Description
 -----------
