@@ -1,4 +1,4 @@
-# Thumbnail image URL
+# Thumbnail URL image
 
 Plugin for [YOURLS](http://yourls.org) `1.5+`.
 
