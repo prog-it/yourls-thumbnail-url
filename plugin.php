@@ -3,7 +3,7 @@
 Plugin Name: Thumbnail URL image
 Plugin URI: https://github.com/prog-it/yourls-thumbnail-url
 Description: Add .i to shorturls to display Thumbnail URL image
-Version: 1.0
+Version: 1.1
 Author: progit
 Author URI: https://github.com/prog-it
 */
@@ -11,7 +11,10 @@ Author URI: https://github.com/prog-it
 // EDIT THIS
 
 // Thumbnail Image service URL with params
-define( 'PROGIT_THUMB_URL', 'https://api.webthumbnail.org/?width=800&height=600&screen=1024&url=' );
+// Choose one. Uncomment if need
+
+define( 'PROGIT_THUMB_URL', 'https://api.site-shot.com/?width=1024&height=768&scaled_width=800&format=jpeg&url=' );
+//define( 'PROGIT_THUMB_URL', 'https://api.webthumbnail.org/?width=800&height=600&screen=1024&url=' );
 
 // Kick in if the loader does not recognize a valid pattern
 yourls_add_action( 'loader_failed', 'progit_yourls_thumbnail' );
